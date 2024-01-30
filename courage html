@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girls Lead Liberia Inc</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Light gray background */
+            color: #333; /* Dark text color */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            text-align: center;
+        }
+        a {
+            color: #000; /* Black link color */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #004d00; /* Dark green header background */
+            color: white;
+            padding: 1em;
+        }
+        h1 {
+            margin: 0;
+            font-family: 'Tahoma', sans-serif;
+            font-size: 2.5em;
+            color: #fff; /* White text color for better visibility */
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: rgba(0, 100, 0, 0.8); /* Semi-transparent dark green navigation background */
+            color: black; /* Black navigation text color */
+            padding: 1em;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+        nav a {
+            margin: 0 1em;
+            font-weight: bold;
+            font-size: 1.1em;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 2em;
+            background-color: white;
+            margin: 1em 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #004d00; /* Dark green heading color */
+            font-family: 'Tahoma', sans-serif;
+        }
+        p {
+            line-height: 1.6;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #004d00; /* Dark green footer background */
+            color: white;
+            text-align: center;
+            padding: 1em;
+            margin-top: auto;
+        }
+
+        /* Contact Section Styles */
+        #contact {
+            background-color: #e6e6e6; /* Light gray contact section background */
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        #contact p {
+            font-size: 1.1em;
+            margin-bottom: 1em;
+        }
+        #contact a {
+            color: #004d00; /* Dark green contact link color */
+            font-weight: bold;
+        }
+
+        /* Responsive Styles */
+        @media only screen and (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                margin: 0.5em 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Girls Lead Liberia Inc</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#vision">Vision & Mission</a>
+        <a href="#programs">Programs</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home">
+        <h2>Welcome to Girls Lead Liberia</h2>
+        <p>Your gateway to empowerment, education, and leadership for girls in Liberia.</p>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn about our mission to empower girls and foster a community of capable leaders.</p>
+    </section>
+    <section id="vision">
+        <h2>Vision & Mission</h2>
+        <p><strong>Vision:</strong> A Liberia where Girls confidently lead, knowing their worth, and shaping a future of Boundless opportunities.</p>
+        <p><strong>Mission:</strong> Empowering Girls through Education, Skill-building, and Mentorship, Fostering a community where they see themselves as capable leaders.</p>
+    </section>
+    <section id="programs">
+        <h2>Programs</h2>
+        <p>Explore our initiatives focused on education, skill development, and mentorship for girls.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, feel free to reach out:</p>
+        <p><strong>Email:</strong> <a href="mailto:girlsleadliberiainc@gmail.com">girlsleadliberiainc@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+231880384771">+231 8803 84771</a></p>
+        <p>Follow us on <a href="https://www.facebook.com/profile.php?id=61555839910330" target="_blank">Facebook</a> <span style="font-family: 'Segoe UI Symbol';">&#xf09a;</span> Inc.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Girls Lead Liberia Inc. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
